@@ -1,10 +1,11 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-list-page',
-  imports: [],
-  template: `<p>list-page works!</p>`,
-  styleUrl: './list-page.component.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  templateUrl: './list-page.component.html',
+  styles: [
+  ]
 })
-export class ListPageComponent { }
+export class ListPageComponent {
+
+}

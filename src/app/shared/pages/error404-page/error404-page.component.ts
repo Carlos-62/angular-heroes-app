@@ -1,10 +1,11 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-error404-page',
-  imports: [],
-  template: `<p>error404-page works!</p>`,
-  styleUrl: './error404-page.component.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  templateUrl: './error404-page.component.html',
+  styles: [
+  ]
 })
-export class Error404PageComponent { }
+export class Error404PageComponent {
+
+}

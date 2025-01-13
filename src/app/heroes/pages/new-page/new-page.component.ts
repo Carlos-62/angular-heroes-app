@@ -1,10 +1,11 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-new-page',
-  imports: [],
-  template: `<p>new-page works!</p>`,
-  styleUrl: './new-page.component.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  templateUrl: './new-page.component.html',
+  styles: [
+  ]
 })
-export class NewPageComponent { }
+export class NewPageComponent {
+
+}
