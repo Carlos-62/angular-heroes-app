@@ -6,12 +6,11 @@ import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
-
+    Error404PageComponent,
   ],
 
   imports: [
     CommonModule,
-    Error404PageComponent,
   ],
   exports: [
     Error404PageComponent

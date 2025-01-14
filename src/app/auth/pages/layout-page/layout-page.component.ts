@@ -6,7 +6,8 @@ import { RouterModule } from '@angular/router';
   templateUrl: './layout-page.component.html',
   styles: [
   ],
-  imports: [RouterModule]  
+  standalone:false,
+ 
 })
 export class LayoutPageComponent {
 
